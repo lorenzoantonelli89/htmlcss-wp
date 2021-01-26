@@ -61,7 +61,7 @@ header img{
 #jumbotron{
   height: 50vh;
   position: relative;
-  background-image: url("https://litmotion.net/demo/neori/wp-content/uploads/2019/10/2806801.jpg");
+  background-image: url("../img/banner.jpg");
 }
 
 .textjumbo{
@@ -114,15 +114,15 @@ main{
 }
 
 #imgleft{
-  background-image: url("https://litmotion.net/demo/neori/wp-content/uploads/2019/10/2808334-copy-1.jpg");
+  background-image: url("../img/img-1.jpg");
 }
 
 #imgcentral{
-  background-image: url("https://litmotion.net/demo/neori/wp-content/uploads/2019/10/2693964.jpg");
+  background-image: url("../img/banner-2.jpg");
 }
 
 #imgright{
-  background-image: url("https://litmotion.net/demo/neori/wp-content/uploads/2019/10/23-copy.jpg");
+  background-image: url("../img/img-3.jpg");
 }
 
 .textmain{
