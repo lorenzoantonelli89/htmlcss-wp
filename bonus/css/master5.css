@@ -1,0 +1,188 @@
+/* regole generali */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#container{
+  width: 90%;
+  margin: 15% auto;
+}
+
+.imgbackground{
+  background-size: cover;
+  background-position: center center;
+  border-radius: 20px;
+  max-height: 100%;
+}
+
+.layouter{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+  margin-bottom: 5%;
+}
+
+/* regole header */
+header{
+  width: 100%;
+  background-color: #00b300;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 200;
+}
+
+header img{
+  width: 18%;
+  height: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-right: 1px solid #000;
+  border-left: 1px solid #000;
+  padding: 0 2%;
+}
+
+header a, header ul{
+  margin-left: 20%;
+}
+
+.navigation>li{
+  display: inline-block;
+}
+
+.navigation a{
+  text-decoration: none;
+  color: #000;
+}
+
+.left{
+  margin-left: 2%;
+}
+
+/* regole main */
+main{
+  margin-top: 5%;
+}
+
+.title.main{
+  text-align: center;
+}
+
+.title.main>h4{
+  font-weight: 300;
+  color: rgb(206, 206, 206);
+}
+
+/* regole specifiche figli row */
+.imgbackground.main{
+  width: 100%;
+  height: 20vh;
+}
+
+.aside,.section.central, .upside{
+  margin-top: 4%;
+  margin-bottom: 2%;
+  float: left;
+}
+
+.aside{
+  width: 20%;
+}
+
+.upside{
+  width: 23%
+}
+
+.upside.left, .upside.right{
+  margin-left: 2%;
+}
+
+.upside.right{
+  margin-right: 2%;
+}
+
+.section.central{
+  margin-left: 1%;
+  margin-right: 1%;
+  width: 58%;
+}
+
+.side.sinistra{
+  width: 45%;
+  float: left;
+}
+
+.side.destra{
+  width: 45%;
+  float: right;
+}
+
+.side{
+  margin-top: 5%;
+}
+
+#imgfirst{
+  background-image: url("../../img/img-5.jpg");
+}
+
+#imgsecond{
+  background-image: url("../../img/img-6.jpg");
+}
+
+#imgthird{
+  background-image: url("../../img/img-4.jpg");
+}
+
+#imgfour{
+  background-image: url("../../img/banner.jpg");
+}
+
+#imgleft{
+  background-image: url("../../img/img-1.jpg");
+}
+
+#imgcentral{
+  background-image: url("../../img/banner-2.jpg");
+}
+
+#imgright{
+  background-image: url("../../img/img-3.jpg");
+}
+
+#imgsinistra{
+  background-image: url("../../img/img-4.jpg");
+}
+
+#imgdestra{
+  background-image: url("../../img/img-6.jpg");
+}
+
+.textmain{
+  margin-top: 20px;
+}
+
+.row p{
+  color: rgb(206, 206, 206);
+  margin-top: 12px;
+}
+
+/* regole footer */
+footer{
+  margin-top: 6%;
+  text-align: center;
+  font-weight: 300;
+}
+
+#heart{
+  color: rgb(255, 0, 1);
+}
