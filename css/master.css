@@ -10,6 +10,19 @@
   margin: 2% auto;
 }
 
+.imgbackground{
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+
+.layouter{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
 /* regole header */
 header>img{
   width: 18%;
@@ -29,4 +42,23 @@ header>img{
 
 .left{
   margin-left: 2%;
+}
+
+/* regole jumbotron */
+#jumbotron{
+  height: 50vh;
+  position: relative;
+  background-image: url("https://litmotion.net/demo/neori/wp-content/uploads/2019/10/2806801.jpg");
+}
+
+.textjumbo{
+  width: 55%;
+  position: absolute;
+  left: 5%;
+  bottom: 10%;
+  color: #fff;
+}
+
+.textjumbo>h2{
+  font-size: 30px;
 }
