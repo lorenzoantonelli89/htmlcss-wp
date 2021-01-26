@@ -1,0 +1,142 @@
+/* regole generali */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#container{
+  max-width: 90%;
+  margin: 2% auto;
+}
+
+.imgbackground{
+  background-size: cover;
+  background-position: center center;
+  border-radius: 20px;
+  max-height: 100%;
+}
+
+.layouter{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#jumbotron, main{
+  margin-top: 2%;
+}
+
+/* regole header */
+header img{
+  width: 18%;
+  height: 5%;
+  margin-bottom: 4%;
+  border-right: 1px solid #e5e5e5;
+  padding-right: 3%;
+}
+
+.navigation>li{
+  display: inline-block;
+}
+
+.navigation a{
+  text-decoration: none;
+  color: rgb(149, 148, 149);
+}
+
+.left{
+  margin-left: 2%;
+}
+
+/* regole jumbotron */
+#jumbotron{
+  height: 50vh;
+  position: relative;
+  background-image: url("../../img/banner-2.jpg");
+}
+
+.textjumbo{
+  width: 55%;
+  position: absolute;
+  left: 5%;
+  bottom: 10%;
+  color: #fff;
+}
+
+.textjumbo>h2{
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.textjumbo>p{
+  font-weight: 300;
+}
+
+/* regole main */
+main{
+  margin-top: 5%;
+}
+
+.title.main>h4{
+  font-weight: 300;
+  color: rgb(206, 206, 206);
+}
+
+/* regole specifiche figli row */
+.imgbackground.main{
+  width: 100%;
+  height: 20vh;
+}
+
+.aside{
+  margin-top: 4%;
+  margin-bottom: 2%;
+}
+
+.aside.sinistra{
+  width: 45%;
+  float: left;
+}
+
+.aside.destra{
+  width: 45%;
+  float: right;
+}
+
+
+#imgleft{
+  background-image: url("../../img/img-4.jpg");
+}
+
+#imgright{
+  background-image: url("../../img/img-6.jpg");
+}
+
+.textmain{
+  margin-top: 20px;
+}
+
+.row p{
+  color: rgb(206, 206, 206);
+  margin-top: 12px;
+}
+
+/* regole footer */
+footer{
+  margin-top: 3%;
+  text-align: center;
+  font-weight: 300;
+}
+
+#heart{
+  color: rgb(255, 0, 1);
+}
