@@ -126,3 +126,13 @@ main{
   color: rgb(206, 206, 206);
   margin-top: 12px;
 }
+
+/* regole footer */
+footer{
+  margin-top: 3%;
+  text-align: center;
+}
+
+#heart{
+  color: rgb(255, 0, 1);
+}
