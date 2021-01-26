@@ -23,6 +23,16 @@
   border-radius: 20px;
 }
 
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#jumbotron, main{
+  margin-top: 2%;
+}
+
 /* regole header */
 header>img{
   width: 18%;
@@ -61,4 +71,58 @@ header>img{
 
 .textjumbo>h2{
   font-size: 30px;
+}
+
+/* regole main */
+main{
+  margin-top: 5%;
+}
+
+.title.main>h4{
+  font-weight: normal;
+  color: rgb(206, 206, 206);
+}
+
+/* regole specifiche figli row */
+.imgbackground.main{
+  width: 100%;
+  height: 20vh;
+}
+
+.aside,.section.central{
+  margin-top: 4%;
+  margin-bottom: 2%;
+}
+
+.aside{
+  width: 20%;
+  float: left;
+}
+
+.section.central{
+  margin-left: 1%;
+  margin-right: 1%;
+  width: 58%;
+  float: left;
+}
+
+#imgleft{
+  background-image: url("https://litmotion.net/demo/neori/wp-content/uploads/2019/10/2808334-copy-1.jpg");
+}
+
+#imgcentral{
+  background-image: url("https://litmotion.net/demo/neori/wp-content/uploads/2019/10/2693964.jpg");
+}
+
+#imgright{
+  background-image: url("https://litmotion.net/demo/neori/wp-content/uploads/2019/10/23-copy.jpg");
+}
+
+.textmain{
+  margin-top: 20px;
+}
+
+.row p{
+  color: rgb(206, 206, 206);
+  margin-top: 12px;
 }
